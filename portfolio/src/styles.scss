@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+$color-green: #00FF00;
+$color-powershell: #002458;
+
+body {
+    font-family: "Inconsolata", monospace;
+}
+
+.light-theme {
+    background-color: $color-powershell;
+    color: white;
+
+    a {
+        color: white;
+    }
+
+    hr {
+        border-color: white;
+    }
+}
+
+.dark-theme {
+    background-color: black;
+    color: $color-green;
+
+    a {
+        color: $color-green;
+    }
+
+    hr {
+        border-color: $color-green;
+    }
+}
+
+.w-100 {
+    width: 100%;
+}
+
+@media print
+{   
+    body {
+        color: black !important;
+        font-family: Helvetica !important;
+    }
+
+    hr {
+        border-color: #000 !important;
+    }
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
