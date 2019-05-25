@@ -6,6 +6,7 @@ import { EducationComponent } from './education/education.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { EverythingComponent } from './everything/everything.component';
 
 const routes: Routes = [{
     path: '',
@@ -22,6 +23,9 @@ const routes: Routes = [{
 }, {
     path: 'projects',
     component: ProjectsComponent
+}, {
+    path: 'everything',
+    component: EverythingComponent
 }];
 
 @NgModule({
