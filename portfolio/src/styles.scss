@@ -14,6 +14,10 @@ body {
         color: white;
     }
 
+    a:hover {
+        color: $color-green;
+    }
+
     hr {
         border-color: white;
     }
@@ -25,6 +29,10 @@ body {
 
     a {
         color: $color-green;
+    }
+
+    a:hover {
+        color: white;
     }
 
     hr {
@@ -53,6 +61,11 @@ body {
     body {
         color: black !important;
         font-family: Helvetica !important;
+    }
+
+    a {
+        color: black !important;
+        text-decoration: none;
     }
 
     hr {

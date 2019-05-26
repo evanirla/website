@@ -1,4 +1,14 @@
 <header>
+  <table class="no-print w-100">
+    <tr>
+      <td aria-role="breadcrumbs" class="text-left">
+        <a href="#" [routerLink]="['/']">{{currentHost}}</a>{{currentPath}}&#62;
+      </td>
+      <td aria-hidden="true" class="text-right">
+        <a href="#" (click)="nextTheme()">{{nextThemeLabel}}</a>
+      </td>
+    </tr>
+  </table>
   <table class="w-100" role="presentation">
     <tr>
       <td class="text-left">
@@ -6,15 +16,15 @@
           Evan Irla<br/>
           Software Developer
         </h4>
-        <a class="no-print" href="#" (click)="print()" aria-hidden="true">Print Portfolio</a>
       </td>
       <td class="text-right">
         <h4>
-          evani_94@hotmail.com
+          <a href="mailto:evani_94@hotmail.com">evani_94@hotmail.com</a>
         </h4>
       </td>
     </tr>
   </table>
+  <a class="no-print" href="#" (click)="print()" aria-hidden="true">Print Portfolio</a>
   <hr />
 </header>
 <main>
