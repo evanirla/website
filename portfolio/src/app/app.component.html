@@ -1,8 +1,11 @@
 <header>
-  <table class="no-print w-100">
+  <table class="no-print w-100 t-fixed">
     <tr>
       <td aria-role="breadcrumbs" class="text-left">
         <a href="#" [routerLink]="['/']">{{currentHost}}</a>{{currentPath}}&#62;
+      </td>
+      <td aria-role="navigation" class="text-center navbar">
+        <a href="#" [routerLink]="['tutoring']">tutoring</a>
       </td>
       <td aria-hidden="true" class="text-right">
         <a href="#" (click)="nextTheme()">{{nextThemeLabel}}</a>

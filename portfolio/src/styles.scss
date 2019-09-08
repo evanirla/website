@@ -56,6 +56,10 @@ body {
     width: 100%;
 }
 
+table.t-fixed {
+    table-layout: fixed;
+}
+
 @media print
 {   
     body {
