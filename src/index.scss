@@ -1,0 +1,36 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+@media print
+{   
+    body {
+        color: black !important;
+    }
+
+    main {
+        overflow-y: visible !important;
+    }
+
+    h1, h2, h3, h4, h5, h6, p {
+        font-family: Helvetica !important;
+        color: black !important;
+    }
+
+    a {
+        color: black !important;
+        text-decoration: none !important;
+        font-family: Helvetica !important;
+    }
+
+    hr {
+        border-top: solid 1px #000 !important;
+    }
+
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
