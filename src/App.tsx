@@ -22,7 +22,7 @@ function App() {
         <Box sx={{ flex: 1 }}></Box>
         <Box sx={{ display: "flex", alignItems: "center" }}>
           <IconButton className="no-print" aria-label="LinkedIn" href="https://www.linkedin.com/in/evan-irla/">
-            <LinkedInIcon fontSize='large'/>
+            <LinkedInIcon fontSize='large'/> 
           </IconButton>
           <IconButton className="no-print" aria-label="GitHub" href="https://github.com/evanirla">
             <GitHubIcon fontSize='large'/>
