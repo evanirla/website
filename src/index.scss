@@ -10,30 +10,26 @@ ul {
 }
 
 section {
-    margin-bottom: 1em;
+    margin-bottom: 0.8rem;
 }
 
 @media print
 {   
-    body {
+    body * {
         color: black !important;
         font-family: Helvetica !important;
     }
 
     main {
-        font-family: Helvetica !important;
         overflow-y: visible !important;
     }
 
-    h1, h2, h3, h4, h5, h6, p {
-        font-family: Helvetica !important;
-        color: black !important;
+    p {
+        font-size: smaller !important;
     }
 
     a {
-        color: black !important;
         text-decoration: none !important;
-        font-family: Helvetica !important;
     }
 
     hr {
