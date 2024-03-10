@@ -42,6 +42,8 @@ function App() {
               <ul>
                 <li>Design</li>
                 <li>Mentoring</li>
+                <li>Code Review</li>
+                <li>Unit Testing</li>
                 <li>Documentation</li>
                 <li>Research / Prototyping</li>
               </ul>
