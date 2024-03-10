@@ -1,5 +1,5 @@
 import { useCallback } from 'react';
-import { Box, Divider, IconButton, Link, Typography } from '@mui/material';
+import { Box, Divider, IconButton, Link, Typography, useTheme } from '@mui/material';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
@@ -8,8 +8,10 @@ function App() {
     window.print();
   }, []);
 
+  const theme = useTheme();
+
   return (
-    <Box sx={{ display: "flex", flexDirection: "column", height: "100%", boxSizing: "border-box", padding: "10px 20px" }}>
+    <Box sx={{ display: "flex", flexDirection: "column", height: "100%", boxSizing: "border-box", padding: "10px 20px", margin: "auto", maxWidth: theme.breakpoints.values.md }}>
       <header style={{ display: 'flex' }}>
         <Box>
           <Typography variant='h6'>
@@ -76,10 +78,10 @@ function App() {
           <Typography variant='h5'>My Story</Typography>
           <Typography>
             At the age of 13, I began working as a customer service clerk in a small rural town.
-            I developed a passion for taking pride and ownership in my work, no matter what it was; something that has stuck with me to this day.
+            During this time, I learned to take pride and ownership in my work, no matter what it was; something that has stuck with me to this day.
             In 2013, I moved to Edmonton, Alberta, to study Computer Engineering Technology at NAIT.
             Graduating in the spring of 2015, I began working as a software developer for a company developing an internal management system using Microsoft Dynamics CRM.
-            At the end of 2015, I was hired onto a company building licensing and permitting solutions for government clients.
+            At the end of 2015, I was hired by a company building licensing and permitting solutions for government clients.
             Since then, I have grown into a trusted, senior resource for the teams that I've been a part of.
           </Typography>
           <br/>
