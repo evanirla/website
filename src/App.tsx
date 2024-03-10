@@ -44,6 +44,7 @@ function App() {
                 <li>Mentoring</li>
                 <li>Documentation</li>
                 <li>Research / Prototyping</li>
+                <li>DevOps Automation</li>
               </ul>
           </Typography>
         </section>
