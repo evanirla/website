@@ -63,6 +63,7 @@ function App() {
         <Typography>
           <ul>
             <li>.NET (Web API)</li>
+            <li>Oracle Database</li>
             <li>React + Material UI</li>
             <li>ArcGIS JavaScript API</li>
             <li>Azure DevOps (Pipelines)</li>
