@@ -1,16 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
 html, body, #root {
     height: 100%;
     margin: 0;
-    background-color: black;
+}
+
+ul {
+    margin: 0;
+}
+
+section {
+    margin-bottom: 1em;
 }
 
 @media print
 {   
     body {
         color: black !important;
+        font-family: Helvetica !important;
     }
 
     main {
+        font-family: Helvetica !important;
         overflow-y: visible !important;
     }
 

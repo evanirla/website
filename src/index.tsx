@@ -2,9 +2,52 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.scss';
-import { ThemeProvider, createTheme } from '@mui/material';
+import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 
-const theme = createTheme({
+const lightTheme = createTheme({
+  palette: {
+    background: {
+      default: "#012456"
+    }
+  },
+  components: {
+    MuiLink: {
+      styleOverrides: {
+        root: {
+          textDecorationColor: "white"
+        }
+      }
+    },
+    MuiIconButton: {
+      styleOverrides: {
+        root: {
+          color: "white"
+        }
+      }
+    },
+    MuiDivider: {
+      styleOverrides: {
+        root: {
+          borderColor: "white" 
+        }
+      }
+    }
+  },
+  typography: {
+    fontFamily: "Inconsolata",
+    fontSize: 16,
+    allVariants: {
+      color: "white"
+    }
+  }
+});
+
+const darkTheme = createTheme({
+  palette: {
+    background: {
+      default: "black"
+    }
+  },
   components: {
     MuiLink: {
       styleOverrides: {
@@ -40,7 +83,8 @@ const theme = createTheme({
 const root = ReactDOM.createRoot(document.getElementById('root')!);
 root.render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={lightTheme}>
+      <CssBaseline />
       <App />
     </ThemeProvider>
   </React.StrictMode>
