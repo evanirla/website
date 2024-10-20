@@ -18,7 +18,7 @@ function App() {
             Evan Irla
           </Typography>
           <Typography>
-            Software Technologist
+            Full-Stack Software Engineer
           </Typography>
         </Box>
         <Box sx={{ flex: 1 }}></Box>
@@ -67,7 +67,7 @@ function App() {
           <ul>
             <li>.NET (Web API)</li>
             <li>Oracle Database</li>
-            <li>React + Material UI</li>
+            <li>React</li>
             <li>ArcGIS JavaScript API</li>
             <li>Azure DevOps (Pipelines)</li>
             <li>Sphinx (Documentation)</li>
@@ -75,18 +75,15 @@ function App() {
         </Typography>
         </section>
         <section>
-          <Typography variant='h5'>My Story</Typography>
+          <Typography variant='h5'>About Me</Typography>
           <Typography>
-            At the age of 13, I began working as a customer service clerk in a small rural town.
-            During this time, I learned to take pride and ownership in my work, no matter what it was; something that has stuck with me to this day.
-            In 2013, I moved to Edmonton, Alberta, to study Computer Engineering Technology at NAIT.
-            Graduating in the spring of 2015, I began working as a software developer for a company developing an internal management system using Microsoft Dynamics CRM.
-            At the end of 2015, I was hired by a company building licensing and permitting solutions for government clients.
-            Since then, I have grown into a trusted, senior resource for the teams that I've been a part of.
-          </Typography>
-          <br/>
-          <Typography>
-            I now have a partner studying in the United Kingdom and have started the search for a new and exciting opportunity that will allow me to spend more time with her.
+            <p>
+              I've been working in information systems for the past 9 years and have built a broad set of skills across technologies and communications.
+              I am a trusted senior resource on the teams that I work with, providing input into decisions based on my experience and industry knowledge.
+            </p>
+            <p>
+              When I'm not in the office, I'm renovating a 1958 bungalow or playing a round at my local golf club.
+            </p>
           </Typography>
         </section>
       </main>
