@@ -14,7 +14,8 @@ const lightTheme = createTheme({
     MuiLink: {
       styleOverrides: {
         root: {
-          textDecorationColor: "white"
+          textDecorationColor: "white",
+          color: "white"
         }
       }
     },

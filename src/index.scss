@@ -24,6 +24,10 @@ section {
         overflow-y: visible !important;
     }
 
+    section {
+        page-break-inside: avoid;
+    }
+
     p {
         font-size: smaller !important;
     }

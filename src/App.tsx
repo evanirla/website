@@ -35,26 +35,28 @@ function App() {
       <main style={{ flex: 1, overflowY: "scroll" }}>
         <section>
           <Typography>
-            I am a seasoned, full-stack software developer located in Edmonton, Alberta, Canada, working professionally since 2015.
+            I am a seasoned, full-stack software engineer located in Edmonton, Alberta, Canada, working professionally since 2015.
           </Typography>
         </section>
         <section>
-          <Typography variant='h5'>Current Competencies</Typography>
-            <Typography>
-              <ul>
-                <li>Design</li>
-                <li>Mentoring</li>
-                <li>Documentation</li>
-                <li>Research / Prototyping</li>
-                <li>DevOps Automation</li>
-              </ul>
-          </Typography>
-        </section>
-        <section>
-          <Typography variant='h5'>Current Languages</Typography>
+          <Typography variant='h5'>Competencies</Typography>
           <Typography>
+            <small>These are some of the things I'm paid for.</small>
             <ul>
-              <li>Python (PCAP Certification)</li>
+              <li>Design (UI/UX)</li>
+              <li>Mentoring</li>
+              <li>Documentation</li>
+              <li>Research / Prototyping</li>
+              <li>DevOps Automation</li>
+            </ul>
+          </Typography>
+        </section>
+        <section>
+          <Typography variant='h5'>Programming Languages</Typography>
+          <Typography>
+            <small>These are the programming languages I use almost daily.</small>
+            <ul>
+              <li>Python</li>
               <li>C#</li>
               <li>Javascript / Typescript</li>
               <li>Oracle PL/SQL</li>
@@ -62,21 +64,51 @@ function App() {
           </Typography>
         </section>
         <section>
-        <Typography variant='h5'>Current Technologies</Typography>
-        <Typography>
-          <ul>
-            <li>.NET (Web API)</li>
-            <li>Oracle Database</li>
-            <li>React</li>
-            <li>ArcGIS JavaScript API</li>
-            <li>Azure DevOps (Pipelines)</li>
-            <li>Sphinx (Documentation)</li>
-          </ul>
-        </Typography>
+          <Typography variant='h5'>Technologies</Typography>
+          <Typography>
+            <small>These are the technologies I leverage across the stack.</small>
+            <ul>
+              <li>.NET (Web API, Xamarin, etc.)</li>
+              <li>Oracle Database</li>
+              <li>React</li>
+              <li>ArcGIS JavaScript API</li>
+              <li>Azure DevOps (Pipelines)</li>
+              <li>Sphinx (Documentation)</li>
+            </ul>
+          </Typography>
+        </section>
+        <section>
+          <Typography variant='h5'>Certifications</Typography>
+          <Typography>
+            <small>These are the the things that other people say I'm good at.</small>
+            <ul>
+              <li><Link href="https://pythoninstitute.org/pcap">Associate Python Programmer (PCAP)</Link></li>
+              <li><Link href="https://www.cjisonline.com/">CJIS Online</Link></li>
+            </ul>
+          </Typography>
+        </section>
+        <section>
+          <Typography variant='h5'>Interests</Typography>
+          <Typography>
+          <small>These are the the things that I'd like to get better at.</small>
+            <ul>
+              <li>System Architecture</li>
+              <li>Team Leadership</li>
+              <li>Technical Writing</li>
+              <li>CI/CD Integration</li>
+              <li>Data Analysis</li>
+            </ul>
+          </Typography>
         </section>
         <section>
           <Typography variant='h5'>About Me</Typography>
           <Typography>
+            <p>
+              In 2015, I graduated from the <strong>Computer Engineering Technology</strong> program at the <strong>Northern Alberta Institute of Technology</strong>.
+              During the summer I worked on migrating a loss appraisal and adjustment system to Microsoft Dynamics CRM.
+              In the fall, I began a new Software Developer position at <strong>Computronix</strong> on a team building and maintaining the online licensing systems for the B.C. government.
+              Since then, I've been a part of many successful government contracts and have spent the last 5 years working on internal COTS (commercial off-the-shelf) products used by many Client Services teams.
+            </p>
             <p>
               I've been working in information systems for the past 9 years and have built a broad set of skills across technologies and communications.
               I am a trusted senior resource on the teams that I work with, providing input into decisions based on my experience and industry knowledge.
