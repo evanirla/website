@@ -45,6 +45,7 @@ function App() {
             <ul>
               <li>Design (UI/UX)</li>
               <li>Mentoring</li>
+              <li>Team Leadership</li>
               <li>Documentation</li>
               <li>Research / Prototyping</li>
               <li>DevOps Automation</li>
@@ -68,11 +69,12 @@ function App() {
           <Typography>
             <small>These are the technologies I leverage across the stack.</small>
             <ul>
-              <li>.NET (Web API, Xamarin, etc.)</li>
+              <li>.NET (Web API, Xamarin/MAUI, etc.)</li>
               <li>Oracle Database</li>
               <li>React</li>
               <li>ArcGIS JavaScript API</li>
               <li>Azure DevOps (Pipelines)</li>
+              <li>Atlassian Bitbucket (Pipelines)</li>
               <li>Sphinx (Documentation)</li>
             </ul>
           </Typography>
@@ -90,9 +92,10 @@ function App() {
         <section>
           <Typography variant='h5'>Interests</Typography>
           <Typography>
-          <small>These are the the things that I'd like to get better at.</small>
+          <small>These are the skills that I'd like to keep improving.</small>
             <ul>
               <li>System Architecture</li>
+              <li>Requirements Analysis and Design</li>
               <li>Team Leadership</li>
               <li>Technical Writing</li>
               <li>CI/CD Integration</li>
@@ -107,14 +110,14 @@ function App() {
               In 2015, I graduated from the <strong>Computer Engineering Technology</strong> program at the <strong>Northern Alberta Institute of Technology</strong>.
               During the summer I worked on migrating a loss appraisal and adjustment system to Microsoft Dynamics CRM.
               In the fall, I began a new Software Developer position at <strong>Computronix</strong> on a team building and maintaining the online licensing systems for the B.C. government.
-              Since then, I've been a part of many successful government contracts and have spent the last 5 years working on internal COTS (commercial off-the-shelf) products used by many Client Services teams.
+              Since then, I've been a part of many successful government contracts and have spent the last 7 years engineering and building internal COTS (commercial off-the-shelf) products used by many of our clients.
             </p>
             <p>
-              I've been working in information systems for the past 9 years and have built a broad set of skills across technologies and communications.
-              I am a trusted senior resource on the teams that I work with, providing input into decisions based on my experience and industry knowledge.
+              I've played a key role in building and maintaining large software solutions for the past 10 years and have built a broad set of skills across many technologies and communications.
+              I am a trusted senior resource on the teams that I help lead, providing input into decisions based on my experience and industry knowledge.
             </p>
             <p>
-              When I'm not in the office, I'm renovating a 1958 bungalow or playing a round at my local golf club.
+              When I'm not in the office, I'm usually found renovating a 1958 bungalow, playing a round at my local golf club, or trying desparately to draw to the button at my local curling club.
             </p>
           </Typography>
         </section>
